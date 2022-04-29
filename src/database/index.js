@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-const DB_NOME = "iconeVirtual";
+const DB_NOME = "filmes";
 const DB_USUARIO = "root";
 const DB_SENHA = "mysql";
 const DB_CONFIG = {

@@ -1,5 +1,8 @@
+const Categoria = require("../models/Categoria");
+const Filme = require("../models/Filme");
+
 const produtoController = {
-    listarProdutos: (req, res) => {
+    listarFilmes: (req, res) => {
         res.json([{nome: "Produto1"}, {nome: "Produto2"}]);
     }
 };

@@ -2,11 +2,9 @@ const express = require("express");
 const produtoController = require("../controllers/produtoController");
 const routes = express.Router();
 
-routes.get("/", produtoController.listarProdutos);
+routes.get("/", produtoController.listarFilmes);
 
-routes.post("/cadastrar", (req, res) => {
-    res.send("Cadastrei um novo usuário");
-});
+
 
 
 
